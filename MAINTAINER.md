@@ -47,7 +47,7 @@ Add each student as a collaborator with **Write** access, so they can create a b
 
 ### 3. Turn on Codespaces
 
-GitHub's docs say Codespaces is always on for private repos in Free-plan orgs, but for Animyst-Lab it was off until an org owner turned it on in the org's **Settings → Codespaces**. Check it's still enabled for this repo and for outside collaborators (students are collaborators): open the repo's **Code → Codespaces** tab and make sure you can create one.
+GitHub's docs say Codespaces is always on for private repos in Free-plan orgs, but in this repo's previous org it was off until an org owner turned it on in the org's **Settings → Codespaces**. Check it's enabled in LionShareLA for this repo and for outside collaborators (students are collaborators): open the repo's **Code → Codespaces** tab and make sure you can create one.
 
 In the same settings, check who pays:
 - **Each user pays** (the default on Free): free for students. Every personal GitHub account includes 120 core-hours a month (60 hours on the default 2-core machine), and a student with no payment method who uses it all is blocked, not charged.
@@ -82,7 +82,7 @@ Do this from a non-maintainer test account before class:
 
 If Codespaces fails for someone (an outage, or campus Wi-Fi blocking it), students with their **own Claude Pro or Max plan** can use Claude Code on the web instead. The README's "Codespaces isn't working" section walks them through it. The class API key can't be used there: cloud sessions always sign in with a personal Claude plan.
 
-- **Setup:** the Claude GitHub App needs access to this repo. It's installed on Animyst-Lab with selected repositories; confirm **Lmu-incubator** is listed under [the app's repository access](https://github.com/organizations/Animyst-Lab/settings/installations/166006297).
+- **Setup:** the Claude GitHub App needs access to this repo. Install it on LionShareLA, and if it's set to selected repositories, confirm **lion-share** is listed under [the org's installed GitHub Apps](https://github.com/organizations/LionShareLA/settings/installations).
 - **What's different for the student:**
   - The session works on a `claude/...` branch instead of `student/...`. The scope check and `AGENTS.md` allow it.
   - There's no live preview. The agent opens the pull request early and uses its Vercel preview, so this route depends on Vercel deploying students' commits (see Deploying).
