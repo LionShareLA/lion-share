@@ -1,6 +1,6 @@
 export type NavItem = { label: string; href: string; external?: boolean };
 
-export const REPO_URL = "https://github.com/Animyst-Lab/Lmu-incubator";
+export const REPO_URL = "https://github.com/LionShareLA/lion-share";
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "Find a match", href: "/#top" },

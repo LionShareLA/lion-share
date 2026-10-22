@@ -29,7 +29,7 @@ Pick a cause you care about. Build a page for it with an AI helper. Help people 
 
 - [ ] **Make a GitHub account** at [github.com/signup](https://github.com/signup). GitHub is where the site's code lives.
 - [ ] **Send your GitHub username** to your instructor.
-- [ ] **Accept the invite** in the email from GitHub to the `Lmu-incubator` repository. Click **Accept invitation**.
+- [ ] **Accept the invite** in the email from GitHub to the `lion-share` repository. Click **Accept invitation**.
 
 > [!NOTE]
 > That's the only account you need. Claude is set up for you, and you don't pay for anything.
@@ -46,7 +46,7 @@ Pick a cause you care about. Build a page for it with an AI helper. Help people 
 
 A **branch** is your own copy of the site. Your changes stay there until they're reviewed and added to the real site.
 
-1. Open [github.com/Animyst-Lab/Lmu-incubator](https://github.com/Animyst-Lab/Lmu-incubator).
+1. Open [github.com/LionShareLA/lion-share](https://github.com/LionShareLA/lion-share).
 2. Click the branch menu near the top left. It says **dev**.
 3. Type `student/` then your first name and last initial, like `student/maya-r`.
 4. Click **Create branch student/maya-r from dev**.
@@ -139,7 +139,7 @@ Your Codespace stops the preview when it sits idle. Tell Claude *"restart my pre
 > ⚠️ **Only use this if your instructor says so.** It needs **your own Claude Pro or Max plan**; the class key only works in Codespaces.
 
 1. Go to [claude.ai/code](https://claude.ai/code) and sign in.
-2. Connect GitHub if it asks, choose **Animyst-Lab/Lmu-incubator**, and start from the **dev** branch.
+2. Connect GitHub if it asks, choose **LionShareLA/lion-share**, and start from the **dev** branch.
 3. Say **"Help me add my cause page."** Everything else works the same, with three differences:
    - **No live preview while you build.** Claude pushes your work, and you check the preview link on your pull request instead.
    - **Your photo goes in through GitHub.com.** Claude gives you a link to your folder; click **Add file → Upload files** there.
