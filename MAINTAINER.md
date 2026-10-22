@@ -101,8 +101,8 @@ If Codespaces fails for someone (an outage, or campus Wi-Fi blocking it), studen
 
 ## Deploying (Vercel)
 
-- The Vercel project is `lion-share` on the hello-1417's projects team. Production deploys from `main`; every pushed branch and pull request gets a preview.
-- Preview protection (Vercel Authentication) is off, so students can open their preview links without a Vercel account.
+- The Vercel project is `lion-share` on the `jason-d-mello` team. Production deploys from `main`; every pushed branch and pull request gets a preview. A newly connected project tracks the repo's default branch (`dev`) for production, so set it to `main` in the project settings.
+- Preview protection (Vercel Authentication) is off, so students can open their preview links without a Vercel account. New projects turn it on by default; turn it off under **Settings → Deployment Protection**.
 - Environment variables, for both Preview and Production (see `.env.example`):
 
 | Variable | Required | Notes |
