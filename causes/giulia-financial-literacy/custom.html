@@ -7,6 +7,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="/tokens.css">
+  <!--
+    The game is switched off for now. With an empty body and no margin, the
+    section reports a height of 0 and the site hides it, heading and all.
+    To bring the game back, delete this style and the two comment markers
+    around the game's style and markup.
+  -->
+  <style>body { margin: 0; }</style>
+  <!--
   <style>
     /*
       Saver of 2026: a real-time investing game for Save It Forward's page.
@@ -228,8 +236,10 @@
       * { transition: none !important; animation: none !important; }
     }
   </style>
+  -->
 </head>
 <body>
+  <!--
   <div class="wrap">
     <div id="game"></div>
     <p id="live" class="sr-only" aria-live="polite"></p>
@@ -986,5 +996,6 @@
       build();
     })();
   </script>
+  -->
 </body>
 </html>
